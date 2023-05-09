@@ -61,16 +61,6 @@ html {
   transform: translateX(-50%);
 }
 
-.about .about-content,
-.skills .skills-content,
-.my-sites .my-sites-content,
-.contact .contact-content {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
