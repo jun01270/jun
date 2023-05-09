@@ -1,0 +1,7 @@
+.home{
+    display:flex;
+    height: 100vh;
+    min-height: 500px;
+    color: green
+    background-image: "./img/background.png";
+}

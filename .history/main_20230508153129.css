@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.home .about .skills .my-sites .contact{
+    padding-top: 86px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    padding: 8px 12px;
+}
+
+.menu-bar{
+    display: flex;
+    list-style: none;
+    padding-right:100px;
+}
+
+.menu-btn{
+    text-decoration: none;
+    padding:12px;
+}

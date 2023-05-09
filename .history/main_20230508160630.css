@@ -1,0 +1,22 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 8px 12px;
+}
+
+.menu-bar{
+    list-style:none;
+    display: flex;
+    margin: 0;
+    padding-left:0;
+}
+
+.menu-bar li{
+    padding:8px 30px;
+}

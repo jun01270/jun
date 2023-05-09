@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.home .about .skills .my-sites .contact {
+  padding-top: 86px;
+}
+
+.max-width {
+  max-width: 1300px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  padding: 8px 12px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.menu-bar {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
+
+.menu-bar li {
+  padding: 8px 30px;
+}
+
+.menu-bar li:hover {
+  background-color: orange;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .menu-bar {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .menu-bar li {
+    width: 100%;
+    text-align: center;
+  }
+}

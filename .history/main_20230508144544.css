@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.home .about .skills .contact{
+    padding-top: 86px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    padding: 8px 12px;
+}

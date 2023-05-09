@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.home .about .skills .my-sites .contact{
+    padding-top: 86px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    padding: 8px 12px;
+}
+
+.logo{
+    padding-right:900px;
+    display:inline;
+}
+
+
+.menu-bar{
+    display: flex;
+    list-style: none;
+    padding-left:900px;
+}
+
+.menu-btn{
+    text-decoration: none;
+    padding:12px;
+}

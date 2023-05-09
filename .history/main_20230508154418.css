@@ -1,0 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.menu-bar{
+    display: flex;
+    margin: 10px 10px
+    list-style: none;
+}

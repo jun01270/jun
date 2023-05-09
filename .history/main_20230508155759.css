@@ -1,0 +1,25 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 8px 12px;
+}
+
+.logo{
+    display:inline
+}
+
+.menu-bar{
+    display: flex;
+    list-style: none;
+}
+
+.menu-btn{
+    padding: 20px;
+
+}
