@@ -103,44 +103,20 @@ html {
   transition: all 0.3s ease;
 }
 
-.navbar .menu-bar li {
+.menu-bar {
   list-style: none;
-  margin: 5px 20px 0 0;
-  display: inline-block;
+  display: flex;
+  margin: 0;
+  padding-left: 0;
 }
 
-.navbar .menu-bar li a {
-  display: block;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 500;
-  margin-left: 15px;
-  transition: all 0.3s ease;
+.menu-bar li {
+  padding: 8px 30px;
 }
 
 .menu-bar li:hover {
   background-color: orange;
   border-radius: 3px;
-}
-
-.navbar.sticky {
-  padding: 20px 0;
-  background-color: black;
-}
-
-.navbar.sticky .logo a span {
-  color: white;
-}
-
-.navbar.sticky .menu-bar li a:hover {
-  color: white;
-}
-
-.navbar .menu-btn {
-  color: white;
-  font-size: 25px;
-  display: none;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 700px) {

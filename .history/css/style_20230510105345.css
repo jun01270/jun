@@ -119,28 +119,8 @@ html {
 }
 
 .menu-bar li:hover {
-  background-color: orange;
+  color: orange;
   border-radius: 3px;
-}
-
-.navbar.sticky {
-  padding: 20px 0;
-  background-color: black;
-}
-
-.navbar.sticky .logo a span {
-  color: white;
-}
-
-.navbar.sticky .menu-bar li a:hover {
-  color: white;
-}
-
-.navbar .menu-btn {
-  color: white;
-  font-size: 25px;
-  display: none;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 700px) {

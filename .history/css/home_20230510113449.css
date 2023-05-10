@@ -2,12 +2,12 @@
   display: flex;
   height: 100vh;
   min-height: 500px;
-  color: white;
+  color: green;
   background: url("../img/back.jpg") no-repeat center;
   background-size: cover;
 }
 
-.home .max-width {
+.home max-width {
   margin: auto 0 auto 40px;
 }
 
