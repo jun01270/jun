@@ -7,12 +7,12 @@
   text-decoration: none;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 .home .about .skills .my-sites .contact {
   padding-top: 86px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .max-width {
@@ -29,7 +29,10 @@ html {
     //폰트삽입
 } */
 
-.title {
+.about .title,
+.skills .title,
+.my-sites .title,
+.contact .title {
   position: relative;
   text-align: center;
   font-size: 40px;
@@ -38,14 +41,17 @@ html {
   padding-bottom: 8px;
 }
 
-.title::before {
+.about .title::before,
+.skills .title::before,
+.my-sites .title::before,
+.contact .title::before {
   content: "";
   position: absolute;
-  bottom: -38px;
+  bottom: 0px;
   left: 50%;
   width: 160px;
   height: 3px;
-  background-color: gray;
+  background-color: black;
   transform: translateX(-50%);
 }
 
@@ -57,7 +63,7 @@ html {
   font-size: 20px;
   color: rgb(255, 164, 45);
   padding: 5px;
-  background-color: gray;
+  background-color: white;
   transform: translateX(-50%);
 }
 
