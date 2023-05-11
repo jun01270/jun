@@ -1,0 +1,23 @@
+.skills {
+  padding: 100px 0;
+  transition: all 0.3s ease;
+}
+
+.skills .title {
+  padding-top: 30px;
+}
+
+.skills .title::before {
+  background-color: white;
+}
+
+.skills .title::after {
+  content: "What I learened";
+  background-color: black;
+}
+
+.skills {
+  color: white;
+  background-color: black;
+  padding-bottom: 100px;
+}

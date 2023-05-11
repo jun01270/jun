@@ -1,0 +1,17 @@
+.contact {
+  color: white;
+  background-color: rgb(25, 8, 53);
+  padding-bottom: 50px;
+  padding: 100px 0;
+  transition: all 0.3s ease;
+}
+
+.contact .title {
+  padding-top: 40px;
+  margin-bottom: 120px;
+  color: white;
+}
+
+.contact .title::before {
+  background-color: white;
+}

@@ -1,0 +1,24 @@
+.my-sites {
+  padding: 100xp 0;
+  transition: all 0.3s ease;
+}
+
+.my-sites .title::after {
+  content: "What Is My Site ";
+}
+
+.my-sites .my-sites-content {
+  margin-bottom: 100px;
+}
+
+.my-sites-content .left {
+  width: 32%;
+}
+
+.my-sites-content .center {
+  width: 32%;
+}
+
+.my-sites-content .right {
+  width: 32%;
+}

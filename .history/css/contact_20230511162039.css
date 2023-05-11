@@ -1,0 +1,32 @@
+.contact {
+  color: white;
+  background-color: rgb(25, 8, 53);
+  padding-bottom: 50px;
+  padding: 100px 0;
+  transition: all 0.3s ease;
+}
+
+.contact .title {
+  padding-top: 40px;
+  margin-bottom: 120px;
+  color: white;
+}
+
+.contact .title::before {
+  background-color: white;
+}
+
+.contact .title::after {
+  content: "How to Contact Me";
+  background-color: rgb(25, 8, 53);
+}
+
+.contact .contact-content .column {
+  width: 45%;
+}
+
+.contact .contact-content .contact-text {
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
