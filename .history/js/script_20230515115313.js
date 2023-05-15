@@ -19,10 +19,3 @@ var typed = new Typed(".typing1", {
   backSpeed: 60,
   loop: true,
 });
-
-var typed = new Typed(".typing2", {
-  strings: ["HTML", "Css", "Java Script", "React"],
-  typeSpeed: 100,
-  backSpeed: 60,
-  loop: true,
-});
